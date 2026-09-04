@@ -1,0 +1,27 @@
+COLITASHUB — SEO FINAL CON DOMINIO
+
+Dominio principal:
+https://colitashub.com
+
+Archivos actualizados:
+- index.html
+- Zoe/index-zoe.html
+- Kimberly/index-kimberly.html
+- robots.txt
+- sitemap.xml
+
+También se incluyen:
+- _headers
+- .gitignore
+- 404.html
+
+Después de reemplazar los archivos en tu proyecto local:
+git add .
+git commit -m "Configura dominio final y SEO de ColitasHub"
+git push
+
+Cloudflare Pages hará el deploy automáticamente.
+
+IMPORTANTE:
+El dominio canónico configurado es https://colitashub.com (sin www).
+Cuando www.colitashub.com quede Active, conviene crear una redirección 301 de www hacia el dominio sin www.
