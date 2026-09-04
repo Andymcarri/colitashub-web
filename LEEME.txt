@@ -1,0 +1,20 @@
+COLITASHUB — ARCHIVOS DE RAÍZ
+
+Coloca estos archivos en la raíz del proyecto, al mismo nivel que index.html:
+
+- robots.txt
+- sitemap.xml
+- _headers
+- .gitignore
+- 404.html
+
+IMPORTANTE:
+Antes de publicar, abre robots.txt y sitemap.xml y reemplaza:
+
+https://TU-DOMINIO.com
+
+por tu dominio real, por ejemplo:
+https://colitashub.com
+
+No se incluye _worker.js porque no es necesario para SEO básico ni para el funcionamiento actual del sitio.
+Solo conviene crearlo cuando se necesiten redirecciones o lógica especial en Cloudflare.

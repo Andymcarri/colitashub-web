@@ -1,0 +1,329 @@
+:root{
+  --black:#070707;
+  --black-soft:#111111;
+  --ivory:#f4ecd9;
+  --ivory-soft:#d7ccb4;
+  --red:#e03a4e;
+  --red-dark:#b92e3e;
+  --serif:"DM Serif Display",Georgia,serif;
+  --sans:"Sora",Arial,sans-serif;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;min-width:320px}
+body{
+  background:var(--black);
+  color:var(--ivory);
+  font-family:var(--sans);
+  overflow:hidden;
+}
+img{display:block;width:100%}
+
+.split-hero{
+  position:relative;
+  display:flex;
+  width:100%;
+  height:100vh;
+  overflow:hidden;
+  background:var(--black);
+}
+
+.brand-overlay{
+  position:absolute;
+  z-index:20;
+  top:24px;
+  left:28px;
+  pointer-events:auto;
+  text-decoration:none;
+}
+
+.brand-frame{
+  position:relative;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-width:144px;
+  min-height:46px;
+  padding:8px 14px;
+}
+
+.brand-name{
+  color:var(--ivory);
+  font-size:20px;
+  font-weight:700;
+  letter-spacing:.035em;
+  text-shadow:0 1px 8px rgba(0,0,0,.22);
+}
+
+.corner{
+  position:absolute;
+  width:11px;
+  height:11px;
+  border-color:var(--red);
+  border-style:solid;
+}
+.corner.tl{top:0;left:0;border-width:2px 0 0 2px}
+.corner.tr{top:0;right:0;border-width:2px 2px 0 0}
+.corner.bl{bottom:0;left:0;border-width:0 0 2px 2px}
+.corner.br{bottom:0;right:0;border-width:0 2px 2px 0}
+
+.profile-panel{
+  position:relative;
+  flex:1 1 50%;
+  min-width:0;
+  height:100%;
+  overflow:hidden;
+  cursor:pointer;
+  isolation:isolate;
+  opacity:0;
+  transition:
+    flex-basis .75s cubic-bezier(.2,.7,.2,1),
+    flex-grow .75s cubic-bezier(.2,.7,.2,1),
+    opacity .85s ease,
+    transform .85s cubic-bezier(.2,.7,.2,1);
+}
+
+.panel-left{transform:translateX(-36px)}
+.panel-right{
+  transform:translateX(36px);
+  border-left:1px solid rgba(244,236,217,.14);
+}
+
+body.loaded .profile-panel{
+  opacity:1;
+  transform:translateX(0);
+}
+body.loaded .panel-right{transition-delay:.10s}
+
+/* Fotos mucho más naturales y luminosas */
+.panel-image{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transform:scale(1.025);
+  filter:saturate(1) brightness(.98) contrast(1.02);
+  transition:
+    transform .7s cubic-bezier(.2,.7,.2,1),
+    filter .5s ease;
+}
+
+/* Solo degradado inferior suave para lectura */
+.panel-overlay{
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(
+      0deg,
+      rgba(7,7,7,.68) 0%,
+      rgba(7,7,7,.38) 18%,
+      rgba(7,7,7,.12) 36%,
+      rgba(7,7,7,0) 58%
+    );
+  transition:background .45s ease;
+}
+
+.panel-copy{
+  position:absolute;
+  z-index:3;
+  left:clamp(24px,4vw,64px);
+  bottom:clamp(28px,5vw,70px);
+  max-width:430px;
+  transition:
+    transform .45s ease,
+    opacity .45s ease;
+}
+
+.panel-kicker{
+  color:var(--red);
+  font-size:9px;
+  font-weight:700;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  margin-bottom:10px;
+}
+
+.panel-copy h2{
+  font-family:var(--serif);
+  font-size:clamp(48px,5.2vw,84px);
+  font-weight:400;
+  line-height:.95;
+  color:var(--ivory);
+  text-shadow:0 2px 14px rgba(0,0,0,.22);
+}
+
+.panel-traits{
+  margin-top:12px;
+  color:var(--ivory);
+  font-size:14px;
+  font-weight:600;
+  text-shadow:0 1px 8px rgba(0,0,0,.20);
+}
+
+.panel-meta{
+  margin-top:8px;
+  color:var(--ivory-soft);
+  font-size:12px;
+  text-shadow:0 1px 8px rgba(0,0,0,.18);
+}
+
+.panel-link{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  margin-top:20px;
+  color:var(--red);
+  font-size:12px;
+  font-weight:700;
+}
+.panel-link span{transition:transform .3s ease}
+
+@media (hover:hover) and (pointer:fine){
+  .profile-panel:hover .panel-image{
+    transform:scale(1.075);
+    filter:saturate(1.04) brightness(1.02) contrast(1.02);
+  }
+
+  .profile-panel:hover .panel-copy{
+    transform:translateY(-8px);
+  }
+
+  .profile-panel:hover .panel-link span{
+    transform:translateX(6px);
+  }
+}
+
+/* CLICK: expansión 65 / 35 */
+.split-hero.has-active .profile-panel{
+  flex-basis:35%;
+  flex-grow:.35;
+}
+
+.split-hero.has-active .profile-panel.is-active{
+  flex-basis:65%;
+  flex-grow:.65;
+}
+
+/* La foto no activa solo baja un poco, sin apagarse demasiado */
+.split-hero.has-active .profile-panel:not(.is-active) .panel-image{
+  filter:saturate(.9) brightness(.84) contrast(1.02);
+}
+
+.split-hero.has-active .profile-panel:not(.is-active) .panel-copy{
+  opacity:.74;
+}
+
+.split-hero.has-active .profile-panel.is-active .panel-image{
+  transform:scale(1.06);
+  filter:saturate(1.03) brightness(1.01) contrast(1.02);
+}
+
+.profile-panel.is-active .panel-link span{
+  transform:translateX(7px);
+}
+
+@media(max-width:760px){
+  body{overflow:auto}
+
+  .split-hero{
+    display:block;
+    height:auto;
+    overflow:visible;
+  }
+
+  .brand-overlay{
+    top:16px;
+    left:16px;
+  }
+
+  .brand-frame{
+    min-width:126px;
+    min-height:40px;
+    padding:7px 12px;
+  }
+
+  .brand-name{
+    font-size:17px;
+  }
+
+  .profile-panel,
+  .split-hero.has-active .profile-panel,
+  .split-hero.has-active .profile-panel.is-active{
+    width:100%;
+    height:100vh;
+    min-height:620px;
+    flex:none;
+  }
+
+  .panel-right{
+    border-left:0;
+    border-top:1px solid rgba(244,236,217,.12);
+  }
+
+  .panel-copy h2{
+    font-size:56px;
+  }
+
+  .panel-traits{
+    font-size:13px;
+  }
+
+  .split-hero.has-active .profile-panel:not(.is-active){
+    height:42vh;
+    min-height:360px;
+  }
+
+  .split-hero.has-active .profile-panel.is-active{
+    height:100vh;
+    min-height:620px;
+  }
+}
+
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{
+    transition:none!important;
+    animation:none!important;
+  }
+
+  .profile-panel{
+    opacity:1!important;
+    transform:none!important;
+  }
+}
+
+
+/* SEO / ACCESSIBILITY / STRUCTURE */
+.sr-only{
+  position:absolute!important;
+  width:1px!important;
+  height:1px!important;
+  padding:0!important;
+  margin:-1px!important;
+  overflow:hidden!important;
+  clip:rect(0,0,0,0)!important;
+  white-space:nowrap!important;
+  border:0!important;
+}
+
+.panel-link{
+  position:relative;
+  z-index:6;
+  text-decoration:none;
+}
+
+.panel-link:focus-visible,
+.brand-overlay:focus-visible{
+  outline:2px solid var(--red);
+  outline-offset:5px;
+}
+
+.profile-panel:focus-within .panel-image{
+  transform:scale(1.055);
+}
+
+@media(max-width:760px){
+  .panel-copy h2{
+    font-size:56px;
+  }
+}
