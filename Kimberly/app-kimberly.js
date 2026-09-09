@@ -21,7 +21,7 @@
       kicker: "Experiencia Kamasutra",
       title: "Prive",
       image: serviceImages.prive,
-      prices: [["30 min","S/220"],["60 min","S/260"]],
+      prices: [["60 min","S/260"]],
       lead: "Experiencia Kamasutra de carácter privado y exclusivo.",
       detail: "Pensada para quienes buscan un encuentro íntimo con la masajista, con mayor cercanía, complicidad y atención personalizada durante toda la sesión. A diferencia del Tantra, Prive se enfoca en una experiencia más reservada y personal, con una conexión más cercana y una dinámica guiada de principio a fin, adaptada al ritmo del encuentro."
     },
@@ -29,7 +29,7 @@
       kicker: "Interacción corporal",
       title: "Tantra",
       image: serviceImages.tantra,
-      prices: [["30 min","S/180"],["50 min","S/220"]],
+      prices: [["50 min","S/220"]],
       lead: "Experiencia corporal con interacción completa con la masajista.",
       detail: "Desarrollada de forma cercana, progresiva y guiada. Incluye tocamientos suaves y cuidadosamente conducidos durante la sesión, buscando una experiencia más envolvente y participativa. Pensada para quienes desean una atención más cercana, con mayor interacción y un ritmo pausado durante todo el recorrido."
     },
@@ -37,7 +37,7 @@
       kicker: "Experiencia sensitiva",
       title: "Sensi",
       image: serviceImages.sensi,
-      prices: [["30 min","S/160"],["50 min","S/180"]],
+      prices: [["50 min","S/180"]],
       lead: "Masaje sensitivo de ritmo suave y envolvente, realizado con lencería.",
       detail: "La experiencia es guiada por la profesional y no es interactiva. Ideal para quienes buscan desconectarse profundamente y disfrutar una experiencia suave, envolvente y guiada por la profesional."
     },
@@ -45,7 +45,7 @@
       kicker: "Liberación corporal",
       title: "Descontracturante",
       image: serviceImages.descontracturante,
-      prices: [["30 min","S/100"],["50 min","S/130"]],
+      prices: [["50 min","S/130"]],
       lead: "Masaje de presión media a firme, enfocado en aliviar tensión muscular.",
       detail: "Trabaja zonas cargadas como espalda, hombros, cuello, zona lumbar y piernas. La sesión de 30 minutos se concentra en una zona específica o en los puntos de mayor tensión. La de 50 minutos permite trabajar con mayor profundidad y complementar varias áreas del cuerpo con un recorrido más completo."
     },
@@ -53,7 +53,7 @@
       kicker: "Relajación corporal",
       title: "Relajante",
       image: serviceImages.relajante,
-      prices: [["30 min","S/70"],["50 min","S/100"]],
+      prices: [["50 min","S/100"]],
       lead: "Masaje corporal de ritmo suave y envolvente, con presión ligera a media.",
       detail: "Pensado para liberar tensión, reducir el estrés y ayudar al cuerpo a desconectarse del ritmo del día. Se trabajan principalmente espalda, hombros, cuello, brazos y piernas. La sesión de 30 minutos se concentra en las zonas principales, mientras que la de 50 minutos permite un recorrido más completo, pausado y relajante."
     }
