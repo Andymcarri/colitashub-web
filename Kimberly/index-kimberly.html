@@ -34,8 +34,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="styles-kimberly.css?v=20260909-2">
-  <script src="app-kimberly.js?v=20260909-2" defer></script>
+  <link rel="stylesheet" href="styles-kimberly.css?v=20260918-8">
+  <script src="app-kimberly.js?v=20260918-8" defer></script>
 
   <script type="application/ld+json">
   {
@@ -117,7 +117,7 @@
           <h3 id="experienceTitle">Prive</h3>
 
           <div class="experience-prices" id="experiencePrices" aria-label="Precios de Prive">
-            <span class="price-chip">60 min <strong>S/260</strong></span>
+            <span class="price-chip">60 min <strong>S/. 260</strong></span>
           </div>
 
           <p class="experience-lead" id="experienceLead">Experiencia Kamasutra de carácter privado y exclusivo.</p>
@@ -136,11 +136,11 @@
       <noscript>
         <div class="noscript-services">
           <h3>Experiencias disponibles</h3>
-          <p>Prive: 60 min S/260</p>
-          <p>Tantra: 50 min S/220</p>
-          <p>Sensi: 50 min S/180</p>
-          <p>Descontracturante: 50 min S/130</p>
-          <p>Relajante: 50 min S/100</p>
+          <p>Prive: 60 min S/. 260</p>
+          <p>Tantra: 50 min S/. 220</p>
+          <p>Sensi: 50 min S/. 180</p>
+          <p>Descontracturante: 50 min S/. 130</p>
+          <p>Relajante: 50 min S/. 100</p>
         </div>
       </noscript>
     </section>
@@ -169,6 +169,19 @@
       <div class="video-modal-frame">
         <video id="videoModalPlayer" controls playsinline preload="metadata" aria-label="Video de Kimberly"></video>
       </div>
+    </div>
+  </div>
+
+  <div class="image-modal" id="imageModal" aria-hidden="true">
+    <div class="image-modal-backdrop" data-close-image></div>
+    <div class="image-modal-dialog" role="dialog" aria-modal="true" aria-label="Fotografía ampliada de Kimberly">
+      <button class="image-modal-close" id="imageModalClose" type="button" aria-label="Cerrar fotografía">×</button>
+      <button class="image-modal-arrow image-modal-prev" id="imageModalPrev" type="button" aria-label="Fotografía anterior">←</button>
+      <div class="image-modal-frame">
+        <img id="imageModalPhoto" src="" alt="Fotografía ampliada de Kimberly">
+      </div>
+      <button class="image-modal-arrow image-modal-next" id="imageModalNext" type="button" aria-label="Fotografía siguiente">→</button>
+      <div class="image-modal-count" id="imageModalCount" aria-live="polite"></div>
     </div>
   </div>
 

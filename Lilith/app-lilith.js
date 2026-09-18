@@ -2,10 +2,10 @@
   "use strict";
 
   const photos = [
-    "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-01.webp",
-    "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-05.webp",
-    "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-02.webp",
-    "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-06.webp"
+    "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-01.webp",
+    "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-02.webp",
+    "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-03.webp",
+    "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-04.webp"
   ];
 
   const serviceImages = {
@@ -21,7 +21,7 @@
       kicker: "Experiencia Kamasutra",
       title: "Prive",
       image: serviceImages.prive,
-      prices: [["60 min","S/. 260"]],
+      prices: [["60 min","S/. 300"]],
       lead: "Experiencia Kamasutra de carácter privado y exclusivo.",
       detail: "Pensada para quienes buscan un encuentro íntimo con la masajista, con mayor cercanía, complicidad y atención personalizada durante toda la sesión. A diferencia del Tantra, Prive se enfoca en una experiencia más reservada y personal, con una conexión más cercana y una dinámica guiada de principio a fin, adaptada al ritmo del encuentro."
     },
@@ -29,7 +29,7 @@
       kicker: "Interacción corporal",
       title: "Tantra",
       image: serviceImages.tantra,
-      prices: [["50 min","S/. 220"]],
+      prices: [["50 min","S/. 260"]],
       lead: "Experiencia corporal con interacción completa con la masajista.",
       detail: "Desarrollada de forma cercana, progresiva y guiada. Incluye tocamientos suaves y cuidadosamente conducidos durante la sesión, buscando una experiencia más envolvente y participativa. Pensada para quienes desean una atención más cercana, con mayor interacción y un ritmo pausado durante todo el recorrido."
     },
@@ -37,7 +37,7 @@
       kicker: "Experiencia sensitiva",
       title: "Sensi",
       image: serviceImages.sensi,
-      prices: [["50 min","S/. 180"]],
+      prices: [["50 min","S/. 220"]],
       lead: "Masaje sensitivo de ritmo suave y envolvente, realizado con lencería.",
       detail: "La experiencia es guiada por la profesional y no es interactiva. Ideal para quienes buscan desconectarse profundamente y disfrutar una experiencia suave, envolvente y guiada por la profesional."
     },
@@ -45,7 +45,7 @@
       kicker: "Liberación corporal",
       title: "Descontracturante",
       image: serviceImages.descontracturante,
-      prices: [["50 min","S/. 130"]],
+      prices: [["50 min","S/. 170"]],
       lead: "Masaje de presión media a firme, enfocado en aliviar tensión muscular.",
       detail: "Trabaja zonas cargadas como espalda, hombros, cuello, zona lumbar y piernas. La sesión de 30 minutos se concentra en una zona específica o en los puntos de mayor tensión. La de 50 minutos permite trabajar con mayor profundidad y complementar varias áreas del cuerpo con un recorrido más completo."
     },
@@ -53,24 +53,20 @@
       kicker: "Relajación corporal",
       title: "Relajante",
       image: serviceImages.relajante,
-      prices: [["50 min","S/. 100"]],
+      prices: [["50 min","S/. 140"]],
       lead: "Masaje corporal de ritmo suave y envolvente, con presión ligera a media.",
       detail: "Pensado para liberar tensión, reducir el estrés y ayudar al cuerpo a desconectarse del ritmo del día. Se trabajan principalmente espalda, hombros, cuello, brazos y piernas. La sesión de 30 minutos se concentra en las zonas principales, mientras que la de 50 minutos permite un recorrido más completo, pausado y relajante."
     }
   ];
 
   const portfolioMedia = [
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-01.webp" },
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-05.webp" },
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-02.webp" },
-    { type: "video", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-video2.mp4" },
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-06.webp" },
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-03.webp" },
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-04.webp" },
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-07.webp" },
-    { type: "video", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-video.mp4" },
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-09.webp" },
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-08.webp" }
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-01.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-02.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-03.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-04.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-05.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-06.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-07.webp" },
   ];
 
   const track = document.querySelector("#panelTrack");
@@ -111,7 +107,7 @@
       article.dataset.index = index;
       article.dataset.type = item.type;
       article.dataset.src = item.src;
-      article.setAttribute("aria-label", `${item.type === "video" ? "Video" : "Fotografía"} ${index + 1} de ${portfolioMedia.length} de Kimberly`);
+      article.setAttribute("aria-label", `${item.type === "video" ? "Video" : "Fotografía"} ${index + 1} de ${portfolioMedia.length} de Lilith`);
 
       let media;
 
@@ -125,7 +121,7 @@
 
         article.tabIndex = 0;
         article.setAttribute("role","button");
-        article.setAttribute("aria-label", `Abrir video ${index + 1} de Kimberly`);
+        article.setAttribute("aria-label", `Abrir video ${index + 1} de Lilith`);
 
         const open = ()=>openVideo(item.src, article);
         article.addEventListener("click",open);
@@ -138,7 +134,7 @@
       }else{
         media = document.createElement("img");
         media.src = item.src;
-        media.alt = `Kimberly en Lima · fotografía ${index + 1}`;
+        media.alt = `Lilith en Lima · fotografía ${index + 1}`;
         media.width = 900;
         media.height = 1200;
         media.decoding = "async";
@@ -146,7 +142,7 @@
         if(index === 0) media.fetchPriority = "high";
         article.tabIndex = 0;
         article.setAttribute("role","button");
-        article.setAttribute("aria-label", `Abrir fotografía ${index + 1} de Kimberly`);
+        article.setAttribute("aria-label", `Abrir fotografía ${index + 1} de Lilith`);
         const openImage = ()=>openImageModal(index, article);
         article.addEventListener("click", openImage);
         article.addEventListener("keydown", event=>{
@@ -223,7 +219,7 @@
 
   function applyExperienceContent(service,index){
     experienceImage.src = service.image;
-    experienceImage.alt = `${service.title} con Kimberly`;
+    experienceImage.alt = `${service.title} con Lilith`;
     experienceNumber.textContent = String(index+1).padStart(2,"0");
     experienceKicker.textContent = service.kicker;
     experienceTitle.textContent = service.title;
@@ -283,7 +279,7 @@
     const images = imageItems();
     const item = images[activeImageIndex];
     imageModalPhoto.src = item.src;
-    imageModalPhoto.alt = `Fotografía ${activeImageIndex + 1} de ${images.length} de Kimberly`;
+    imageModalPhoto.alt = `Fotografía ${activeImageIndex + 1} de ${images.length} de Lilith`;
     imageModalCount.textContent = `${String(activeImageIndex + 1).padStart(2,"0")} / ${String(images.length).padStart(2,"0")}`;
   }
 

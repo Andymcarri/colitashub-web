@@ -69,7 +69,7 @@ img{display:block;width:100%}
 
 .profile-panel{
   position:relative;
-  flex:1 1 50%;
+  flex:1 1 33.333%;
   min-width:0;
   height:100%;
   overflow:hidden;
@@ -83,8 +83,12 @@ img{display:block;width:100%}
     transform .85s cubic-bezier(.2,.7,.2,1);
 }
 
-.panel-left{transform:translateX(-36px)}
-.panel-right{
+.panel-first{transform:translateX(-36px)}
+.panel-middle{
+  transform:translateY(26px);
+  border-left:1px solid rgba(244,236,217,.14);
+}
+.panel-last{
   transform:translateX(36px);
   border-left:1px solid rgba(244,236,217,.14);
 }
@@ -93,7 +97,8 @@ body.loaded .profile-panel{
   opacity:1;
   transform:translateX(0);
 }
-body.loaded .panel-right{transition-delay:.10s}
+body.loaded .panel-middle{transition-delay:.08s}
+body.loaded .panel-last{transition-delay:.16s}
 
 /* Fotos mucho más naturales y luminosas */
 .panel-image{
@@ -194,15 +199,15 @@ body.loaded .panel-right{transition-delay:.10s}
   }
 }
 
-/* CLICK: expansión 65 / 35 */
+/* CLICK: expansión para 3 perfiles */
 .split-hero.has-active .profile-panel{
-  flex-basis:35%;
-  flex-grow:.35;
+  flex-basis:25%;
+  flex-grow:.25;
 }
 
 .split-hero.has-active .profile-panel.is-active{
-  flex-basis:65%;
-  flex-grow:.65;
+  flex-basis:50%;
+  flex-grow:.50;
 }
 
 /* La foto no activa solo baja un poco, sin apagarse demasiado */
@@ -256,7 +261,8 @@ body.loaded .panel-right{transition-delay:.10s}
     flex:none;
   }
 
-  .panel-right{
+  .panel-middle,
+  .panel-last{
     border-left:0;
     border-top:1px solid rgba(244,236,217,.12);
   }
