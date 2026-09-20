@@ -63,10 +63,12 @@
     { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-01.webp" },
     { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-02.webp" },
     { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-03.webp" },
+    { type: "video", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-video2.mp4" },
     { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-04.webp" },
     { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-05.webp" },
     { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-06.webp" },
     { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-07.webp" },
+    { type: "video", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-video.mp4" }
   ];
 
   const track = document.querySelector("#panelTrack");
