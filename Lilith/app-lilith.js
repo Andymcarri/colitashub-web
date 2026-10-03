@@ -60,13 +60,18 @@
   ];
 
   const portfolioMedia = [
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-01.webp" },
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-02.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-08.webp" },
     { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-03.webp" },
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-04.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-01.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-11.webp" },
     { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-05.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-09.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-02.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-12.webp" },
     { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-06.webp" },
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-07.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-10.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-04.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Mandy/lilith-masajista-colitashub-lima-lenceria-07.webp" }
   ];
 
   const track = document.querySelector("#panelTrack");
