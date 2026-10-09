@@ -63,7 +63,8 @@
     { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Tania/tania-masajista-colitashub-lima-lenceria-01.webp" },
     { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Tania/tania-masajista-colitashub-lima-lenceria-02.webp" },
     { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Tania/tania-masajista-colitashub-lima-lenceria-03.webp" },
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Tania/tania-masajista-colitashub-lima-lenceria-04.webp" }
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Tania/tania-masajista-colitashub-lima-lenceria-04.webp" },
+    { type: "video", src: "https://media.nannaspa.com/catalogo/masajistas/Tania/Tania-masajista-nanna-lima-lenceria-video.mp4" }
   ];
 
   const track = document.querySelector("#panelTrack");
