@@ -1,2 +1,4 @@
-/Zoe/* /404.html 404
-/zoe/* /404.html 404
+/Tania/index-tania.html /Tania 301
+/Tania/index-tania /Tania 301
+/Tania/ /Tania 301
+/Tania /Tania/index-tania.html 200
