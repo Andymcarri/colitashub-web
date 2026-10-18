@@ -1,6 +1,11 @@
 (() => {
   "use strict";
 
+  // Mantiene el archivo interno index-tania, pero limpia la URL visible.
+  if (/^\/Tania\/index-tania(?:\.html)?\/?$/i.test(window.location.pathname)) {
+    window.history.replaceState(null, "", "/Tania");
+  }
+
   const photos = [
     "https://media.nannaspa.com/catalogo/masajistas/Tania/tania-masajista-colitashub-lima-lenceria-01.webp",
     "https://media.nannaspa.com/catalogo/masajistas/Tania/tania-masajista-colitashub-lima-lenceria-02.webp",
