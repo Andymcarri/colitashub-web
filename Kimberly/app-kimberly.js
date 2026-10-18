@@ -2,10 +2,10 @@
   "use strict";
 
   const photos = [
-    "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-01.webp",
-    "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-05.webp",
-    "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-02.webp",
-    "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-06.webp"
+    "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-01-v2.webp",
+    "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-02-v2.webp",
+    "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-03-v2.webp",
+    "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-04-v2.webp"
   ];
 
   const serviceImages = {
@@ -60,17 +60,16 @@
   ];
 
   const portfolioMedia = [
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-01.webp" },
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-05.webp" },
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-02.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-01-v2.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-02-v2.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-03-v2.webp" },
     { type: "video", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-video2.mp4" },
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-06.webp" },
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-03.webp" },
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-04.webp" },
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-07.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-04-v2.webp" },
     { type: "video", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-video.mp4" },
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-09.webp" },
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-08.webp" }
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-05-v2.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-06-v2.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-07-v2.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Kim/kimberly-masajista-nanna-lima-lenceria-08-v2.webp" }
   ];
 
   const track = document.querySelector("#panelTrack");
