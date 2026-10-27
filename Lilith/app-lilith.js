@@ -40,22 +40,6 @@
       prices: [["50 min","S/. 220"]],
       lead: "Masaje sensitivo de ritmo suave y envolvente, realizado con lencería.",
       detail: "La experiencia es guiada por la profesional y no es interactiva. Ideal para quienes buscan desconectarse profundamente y disfrutar una experiencia suave, envolvente y guiada por la profesional."
-    },
-    {
-      kicker: "Liberación corporal",
-      title: "Descontracturante",
-      image: serviceImages.descontracturante,
-      prices: [["50 min","S/. 170"]],
-      lead: "Masaje de presión media a firme, enfocado en aliviar tensión muscular.",
-      detail: "Trabaja zonas cargadas como espalda, hombros, cuello, zona lumbar y piernas. La sesión de 30 minutos se concentra en una zona específica o en los puntos de mayor tensión. La de 50 minutos permite trabajar con mayor profundidad y complementar varias áreas del cuerpo con un recorrido más completo."
-    },
-    {
-      kicker: "Relajación corporal",
-      title: "Relajante",
-      image: serviceImages.relajante,
-      prices: [["50 min","S/. 140"]],
-      lead: "Masaje corporal de ritmo suave y envolvente, con presión ligera a media.",
-      detail: "Pensado para liberar tensión, reducir el estrés y ayudar al cuerpo a desconectarse del ritmo del día. Se trabajan principalmente espalda, hombros, cuello, brazos y piernas. La sesión de 30 minutos se concentra en las zonas principales, mientras que la de 50 minutos permite un recorrido más completo, pausado y relajante."
     }
   ];
 
