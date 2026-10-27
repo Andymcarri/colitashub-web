@@ -23,7 +23,7 @@
       image: serviceImages.prive,
       prices: [["60 min","S/. 300"]],
       lead: "Experiencia Kamasutra de carácter privado y exclusivo.",
-      detail: "Pensada para quienes buscan un encuentro íntimo con la masajista, con mayor cercanía, complicidad y atención personalizada durante toda la sesión. A diferencia del Tantra, Prive se enfoca en una experiencia más reservada y personal, con una conexión más cercana y una dinámica guiada de principio a fin, adaptada al ritmo del encuentro."
+      detail: "El servicio Privé es una experiencia más íntima, que comienza con un suave y delicado masaje relajante. Poco a poco, mi cuerpo desnudo se desliza sobre el tuyo, mientras nos dejamos llevar por las caricias y la cercanía. Y para finalizar, nos unimos en una dulce penetración, compartiendo un momento de placer hasta llegar juntos a un final inolvidable."
     },
     {
       kicker: "Interacción corporal",
