@@ -6,7 +6,10 @@
     "https://media.nannaspa.com/catalogo/masajistas/Camila/camila-masajista-colitashub-lima-lenceria-02-v2.webp",
     "https://media.nannaspa.com/catalogo/masajistas/Camila/camila-masajista-colitashub-lima-lenceria-03-v2.webp",
     "https://media.nannaspa.com/catalogo/masajistas/Camila/camila-masajista-colitashub-lima-lenceria-04-v2.webp",
-    "https://media.nannaspa.com/catalogo/masajistas/Camila/camila-masajista-colitashub-lima-lenceria-05-v2.webp"
+    "https://media.nannaspa.com/catalogo/masajistas/Camila/camila-masajista-colitashub-lima-lenceria-05-v2.webp",
+    "https://media.nannaspa.com/catalogo/masajistas/Camila/camila-masajista-colitashub-lima-lenceria-06-v2.webp",
+    "https://media.nannaspa.com/catalogo/masajistas/Camila/camila-masajista-colitashub-lima-lenceria-07-v2.webp",
+    "https://media.nannaspa.com/catalogo/masajistas/Camila/camila-masajista-colitashub-lima-lenceria-08-v2.webp"
   ];
 
   const serviceImages = {
@@ -64,10 +67,13 @@
     { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Camila/camila-masajista-colitashub-lima-lenceria-01-v2.webp" },
     { type: "video", src: "https://media.nannaspa.com/catalogo/masajistas/Camila/camila-masajista-colitashub-lima-lenceria-video-01.mp4" },
     { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Camila/camila-masajista-colitashub-lima-lenceria-02-v2.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Camila/camila-masajista-colitashub-lima-lenceria-06-v2.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Camila/camila-masajista-colitashub-lima-lenceria-07-v2.webp" },
     { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Camila/camila-masajista-colitashub-lima-lenceria-05-v2.webp" },
     { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Camila/camila-masajista-colitashub-lima-lenceria-03-v2.webp" },
     { type: "video", src: "https://media.nannaspa.com/catalogo/masajistas/Camila/camila-masajista-colitashub-lima-lenceria-video-02.mp4" },
-    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Camila/camila-masajista-colitashub-lima-lenceria-04-v2.webp" }
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Camila/camila-masajista-colitashub-lima-lenceria-04-v2.webp" },
+    { type: "image", src: "https://media.nannaspa.com/catalogo/masajistas/Camila/camila-masajista-colitashub-lima-lenceria-08-v2.webp" }
   ];
 
   const track = document.querySelector("#panelTrack");
