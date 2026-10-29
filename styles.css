@@ -69,7 +69,7 @@ img{display:block;width:100%}
 
 .profile-panel{
   position:relative;
-  flex:1 1 33.333%;
+  flex:1 1 50%;
   min-width:0;
   height:100%;
   overflow:hidden;
@@ -98,7 +98,6 @@ body.loaded .profile-panel{
   transform:translateX(0);
 }
 body.loaded .panel-middle{transition-delay:.08s}
-body.loaded .panel-last{transition-delay:.16s}
 
 /* Fotos mucho más naturales y luminosas */
 .panel-image{
@@ -199,15 +198,15 @@ body.loaded .panel-last{transition-delay:.16s}
   }
 }
 
-/* CLICK: expansión para 3 perfiles */
+/* CLICK: expansión para 2 perfiles */
 .split-hero.has-active .profile-panel{
-  flex-basis:25%;
-  flex-grow:.25;
+  flex-basis:35%;
+  flex-grow:.35;
 }
 
 .split-hero.has-active .profile-panel.is-active{
-  flex-basis:50%;
-  flex-grow:.50;
+  flex-basis:65%;
+  flex-grow:.65;
 }
 
 /* La foto no activa solo baja un poco, sin apagarse demasiado */
