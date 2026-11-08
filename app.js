@@ -4,6 +4,13 @@
   const hero = document.querySelector(".split-hero");
   const panels = [...document.querySelectorAll(".profile-panel")];
 
+
+  const zoeLink = document.querySelector('[data-profile-link="zoe"]');
+  if (zoeLink && window.location.protocol !== "file:") {
+    zoeLink.setAttribute("href", "/Zoe/");
+  }
+
+
   requestAnimationFrame(() => {
     document.body.classList.add("loaded");
   });
